@@ -1,22 +1,22 @@
 {
-  "name": "React Starter",
-  "organization": "Anvil Analytics + Insights",
-  "description": "A starter component built with React",
+  "name": "Retention rate",
+  "organization": "Glific",
+  "description": "Component for retention rate",
   "logoUrl": "https://raw.githubusercontent.com/googledatastudio/experimental-visualizations/master/viz/react-starter/src/react-starter-icon.png",
   "organizationUrl": "https://anvilinsights.com",
   "supportUrl": "https://github.com/anvilinsights/data-studio-react-starter/issues",
   "packageUrl": "https://github.com/anvilinsights/data-studio-react-starter/tree/master/",
-  "devMode": "DEVMODE_BOOL",
+  "devMode": "true",
   "components": [
     {
-      "id": "react",
-      "name": "React Starter",
-      "description": "A starter component built with React",
+      "id": "retention",
+      "name": "Retention Rate",
+      "description": "Component for retention rate",
       "iconUrl": "https://raw.githubusercontent.com/anvilinsights/data-studio-react-starter/master/src/react-starter-icon.png",
       "resource": {
-        "js": "YOUR_GCS_BUCKET/index.js",
-        "config": "YOUR_GCS_BUCKET/index.json",
-        "css": "YOUR_GCS_BUCKET/index.css"
+        "js": "gs://data-studio-viz-glific/index.js",
+        "config": "gs://data-studio-viz-glific/index.json",
+        "css": "gs://data-studio-viz-glific/index.css"
       }
     }
   ]
