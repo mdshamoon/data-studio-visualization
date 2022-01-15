@@ -1,23 +1,21 @@
 {
-  "name": "Retention rate",
-  "organization": "Glific",
-  "description": "Component for retention rate",
-  "logoUrl": "https://raw.githubusercontent.com/googledatastudio/experimental-visualizations/master/viz/react-starter/src/react-starter-icon.png",
-  "organizationUrl": "https://anvilinsights.com",
-  "supportUrl": "",
-  "packageUrl": "/",
-  "devMode": "true",
-  "components": [
-    {
-      "id": "retention",
-      "name": "Retention Rate",
-      "description": "Component for retention rate",
-      "iconUrl": "",
-      "resource": {
-        "js": "gs://data-studio-stir-retention-graph/index.js",
-        "config": "gs://data-studio-stir-retention-graph/index.json",
-        "css": "gs://data-studio-stir-retention-graph/index.css"
-      }
-    }
-  ]
+    "name": "Data studio visualization",
+    "organization": "",
+    "description": "Data studio visualization",
+    "supportUrl": "",
+    "packageUrl": "/",
+    "devMode": "true",
+    "components": [
+        {
+            "id": "visualization",
+            "name": "Data studio visualization",
+            "description": "Data studio visualization",
+            "iconUrl": "",
+            "resource": {
+                "js": "",
+                "config": "",
+                "css": ""
+            }
+        }
+    ]
 }
