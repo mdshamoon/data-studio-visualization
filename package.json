@@ -1,7 +1,7 @@
 {
   "dsccViz": {
     "gcsDevBucket": "gs://anvil-data-studio-react-starter-dev",
-    "gcsProdBucket": "gs://data-studio-viz-glific",
+    "gcsProdBucket": "gs://data-studio-stir-retention-graph",
     "jsFile": "index.js",
     "jsonFile": "index.json",
     "cssFile": "index.css",

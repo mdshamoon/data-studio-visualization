@@ -4,13 +4,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Bar } from "react-chartjs-2";
 import moment from "moment";
-import { Chart } from "chart.js";
-import ChartDataLabels from "chartjs-plugin-datalabels";
-
-Chart.register(ChartDataLabels);
-Chart.defaults.set("plugins.datalabels", {
-    color: "#FE777B",
-});
 
 import { DataContext } from "../utils/DataContext";
 
@@ -136,12 +129,6 @@ const MyTable = (props) => {
     };
 
     const options = {
-        plugins: {
-            // Change options for ALL labels of THIS CHART
-            datalabels: {
-                color: "#36A2EB",
-            },
-        },
         scales: {
             y: {
                 ticks: {

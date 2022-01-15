@@ -4,19 +4,19 @@
   "description": "Component for retention rate",
   "logoUrl": "https://raw.githubusercontent.com/googledatastudio/experimental-visualizations/master/viz/react-starter/src/react-starter-icon.png",
   "organizationUrl": "https://anvilinsights.com",
-  "supportUrl": "https://github.com/anvilinsights/data-studio-react-starter/issues",
-  "packageUrl": "https://github.com/anvilinsights/data-studio-react-starter/tree/master/",
+  "supportUrl": "",
+  "packageUrl": "/",
   "devMode": "true",
   "components": [
     {
       "id": "retention",
       "name": "Retention Rate",
       "description": "Component for retention rate",
-      "iconUrl": "https://raw.githubusercontent.com/anvilinsights/data-studio-react-starter/master/src/react-starter-icon.png",
+      "iconUrl": "",
       "resource": {
-        "js": "gs://data-studio-viz-glific/index.js",
-        "config": "gs://data-studio-viz-glific/index.json",
-        "css": "gs://data-studio-viz-glific/index.css"
+        "js": "gs://data-studio-stir-retention-graph/index.js",
+        "config": "gs://data-studio-stir-retention-graph/index.json",
+        "css": "gs://data-studio-stir-retention-graph/index.css"
       }
     }
   ]
